@@ -1,0 +1,644 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-08T14:39:50.870Z",
+        "line": 3,
+        "name": "Main Page",
+        "description": "",
+        "id": "supplysuit;main-page",
+        "after": [
+          {
+            "embeddings": [
+              {
+                "data": "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AAAA4gggAAAAAABAHAEEAAAAAACII4AAAAAAAABxBBAAAAAAACCOAAIAAAAAAMQRQAAAAAAAgDgCCAAAAAAAEEcAAQAAAAAA4gggAAAAAABAHAEEAAAAAACII4AAAAAAAABxfuEnP/nJUs8BAAAAAABgXr3n1KlTp5Z6EgAAAAAAAPPJFlgAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAIIAAAAAAAQRwABAAAAAADiCCAAAAAAAEAcAQQAAAAAAIgjgAAAAAAAAHEEEAAAAAAAII4AAgAAAAAAxBFAAAAAAACAOAII/P/27EAGAAAAYJC/9T2+0ggAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsm7d7oAAAFc0lEQVQCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsCBAAAAAAAGBHgAAAAAAAADsCBAAAAAAA2BEgAAAAAADAjgABAAAAAAB2BAgAAAAAALAjQAAAAAAAgB0BAgAAAAAA7AgQAAAAAABgR4AAAAAAAAA7AgQAAAAAANgRIAAAAAAAwI4AAQAAAAAAdgQIAAAAAACwI0AAAAAAAIAdAQIAAAAAAOwIEAAAAAAAYEeAAAAAAAAAOwIEAAAAAADYESAAAAAAAMCOAAEAAAAAAHYECAAAAAAAsCNAAAAAAACAHQECAAAAAADsBLAavRbZJtdxAAAAAElFTkSuQmCC",
+                "mime_type": "image/png",
+                "name": "screenshots"
+              }
+            ],
+            "result": {
+              "duration": 183965400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11548997800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Go to the \"Netherlands_URL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Netherlands_URL\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.MyStepdefs.goToThe(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2062720200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Scroll Down the page to Custom suits",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.scroll_down_the_page_to_custom_suits()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1224242100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Custom suits",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_on_custom_suits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2095950900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Scroll Down the page to Custom Made Coat",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.scroll_down_the_page_to_custom_made_coat()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d103.0.5060.114)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: \u00274.1.1\u0027, revision: \u0027e8fcc2cecf\u0027\nSystem info: host: \u0027DESKTOP-KDAKVSS\u0027, ip: \u0027192.168.1.101\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [e211df793945f567233e8804e4c130c5, clickElement {id\u003dd47d2e6c-1d87-42b2-ba28-f1622f43d92d}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\\Users\\TR\\AppData\\Local\\T...}, goog:chromeOptions: {debuggerAddress: localhost:60749}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60749/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nElement: [[ChromeDriver: chrome on WINDOWS (e211df793945f567233e8804e4c130c5)] -\u003e css selector: button.btn-close.cookies__close-btn.js-accept-cookies]\nSession ID: e211df793945f567233e8804e4c130c5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)\r\n\tat stepdefinitions.MyStepdefs.close_cookies_window(MyStepdefs.java:41)\r\n\tat ✽.Close cookies window(file:///C:/Users/TR/Desktop/IT%20COURSE/SUITSUPPLY_PROJECT/src/test/resources/feature/MainPage.feature:9)\r\n",
+              "duration": 2244613300,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Close cookies window",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.close_cookies_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on Start Now",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_on_start_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "Close message",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.close_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Select \"White\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"White\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinitions.MyStepdefs.select(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Close Search box",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.close_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Click to Filter",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Click to checkboxes",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_checkboxes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click to Next Button",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Click Fit Box",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_fit_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "Select fit",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.select_fit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click to Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6046600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Click to Side Pocket Box",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_side_pocket_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Select Pocket Type",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.select_pocket_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Click to Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click to Weistline Box",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_weistline_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Select Weistline Type",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.select_weistline_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Click to Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Click to Lenght Box",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_lenght_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Select Length Type",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.select_length_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Click to Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Click to Lining Box",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_lining_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Select Lining Type \"Paisley Purple\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paisley Purple\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepdefinitions.MyStepdefs.select_lining_type(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Click to Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Click to Buttons Box",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_buttons_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "Select the Button Type",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.select_the_button_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Click to Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Click to Next Button",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_next_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Click to Get Start to create the size",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_get_start_to_create_the_size()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15626300,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "Click to Select Size",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_select_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "Select \"48\" Size",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"48\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinitions.MyStepdefs.select_size(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "Click to Select Size Button",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_select_size_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "Change the scale size cm to inch and cm",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.change_the_scale_size_cm_to_inch_and_cm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Click to Chest Width to How to measure Chest width",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_chest_width_to_how_to_measure_chest_width()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "Edit your selection and Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.edit_your_selection_and_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Click to Waist Width to How to measure Waist Width",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_waist_width_to_how_to_measure_waist_width()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Edit your selection and Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.edit_your_selection_and_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Click to Sleeve Length Left to How to measure it",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_sleeve_length_left_to_how_to_measure_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "Edit your selection and Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.edit_your_selection_and_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "Click to Sleeve Length Right to How to measure it",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_sleeve_length_right_to_how_to_measure_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Edit your selection and Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.edit_your_selection_and_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "Click to Coat Length to How to measure it",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_coat_length_to_how_to_measure_it()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "Edit your selection and Apply",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.edit_your_selection_and_apply()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "Click to Save \u0026 Continue Button",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_save_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "Enter Your profile name \"My Coat\" in the profile box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Coat\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.MyStepdefs.enter_your_profile_name_in_the_profile_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "Verify \"My Coat\" is displayed at next Summary Page your selections",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"My Coat\"",
+                  "offset": 7
+                }
+              ],
+              "location": "stepdefinitions.MyStepdefs.verify_is_displayed_at_next_summary_page_your_selections(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "Click to Add Button",
+            "match": {
+              "location": "stepdefinitions.MyStepdefs.click_to_add_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "SupplySuit",
+    "description": "",
+    "id": "supplysuit",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/MainPage.feature",
+    "tags": []
+  }
+]
